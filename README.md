@@ -1,6 +1,6 @@
 # For the lesson
 I will compare the kd_Tree method with Point3dList, RTree Component from `Lunchbox`, and naive for-loop.
-I will be better if people attend this lesson install the following things on their computer beforehead.
+## It will be better if people attend this lesson install the following things on their computer beforehead.
 - Visual Studio 
 - Grasshopper Component Template for on Visual Studio <- People can follow the guide here(https://developer.rhino3d.com/guides/grasshopper/your-first-component-windows/)
 - [optional] Lunchbox -> compare with their `RTree` Component/ RTree Closest Point Component
