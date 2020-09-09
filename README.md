@@ -70,7 +70,11 @@ class Node
 - level: level(parent_node) + 1 ; set level(root) = 1;
 
 
-
+# How to construct a K-D tree?
+1.  sort point list
+1.  find the `median point` as the node
+1.  divide the list into 2 **subtrees**
+1.  repeat until have already traversed all the points and put them on our tree.
 
 
 # Reference
