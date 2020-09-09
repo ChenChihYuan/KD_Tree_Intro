@@ -42,6 +42,23 @@ graph TD;
 ### What is a node?
 > A node is a structure which may contain a value or condition, or represent a separate data structure (which could be a tree of its own). Each node in a tree has zero or more child nodes
 - Node is the key element in Tree structure, helping hold the data.
+
+```csharp
+class Node
+{
+    public Point3d pt;
+    public Node left;
+    public Node right;
+
+    public Node(Point3d point)
+    {
+        pt = point;
+    }
+}
+
+```
+
+
 #### Some properties related to a `node`
 - root node: The topmost node, without any parent node(**nullptr**)
 - leaf node: The buttonmost node, without any children node(**nullptr**)
